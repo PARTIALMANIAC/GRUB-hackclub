@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hogwarts Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gradient-to-b from-purple-900 to-black text-white font-sans">
+    <header class="sticky top-0 z-50 bg-black/70 backdrop-blur-md shadow">
+      <nav class="container mx-auto flex justify-between items-center p-4">
+        <h1 class="text-2xl font-bold">🪄 Hogwarts</h1>
+        <ul class="hidden md:flex space-x-6 text-lg">
+          <li><a href="#home" class="hover:text-yellow-400">Home</a></li>
+          <li><a href="#spells" class="hover:text-yellow-400">Spells</a></li>
+          <li><a href="#classes" class="hover:text-yellow-400">Classes</a></li>
+          <li><a href="#about" class="hover:text-yellow-400">About</a></li>
+          <li><a href="#faq" class="hover:text-yellow-400">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="container mx-auto text-center py-20 px-4">
+        <h2 class="text-4xl font-bold mb-4">Welcome to Hogwarts Hub</h2>
+        <p class="mb-6 text-lg max-w-2xl mx-auto">Step into the magical world of Harry Potter! Learn spells, explore Hogwarts, and earn house points in our enchanting program.</p>
+        <div class="flex justify-center gap-4 mb-6">
+          <a href="#spells" class="bg-yellow-500 hover:bg-yellow-600 text-black px-6 py-2 rounded-xl font-semibold">Discover Spells</a>
+          <a href="#classes" class="border border-yellow-500 hover:bg-yellow-500 hover:text-black px-6 py-2 rounded-xl font-semibold">Join Classes</a>
+        </div>
+        <img src="hogwarts castle.png" alt="Hogwarts Castle" class="mx-auto w-full max-w-xl rounded-xl shadow-lg" />
+      </section>
+
+      <section id="spells" class="container mx-auto py-16 px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center">Magical Spells</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-purple-800 p-6 rounded-xl shadow-lg">
+            <h3 class="text-xl font-semibold mb-2">Lumos</h3>
+            <p>Illuminates the tip of your wand, perfect for dark corridors.</p>
+          </div>
+          <div class="bg-purple-800 p-6 rounded-xl shadow-lg">
+            <h3 class="text-xl font-semibold mb-2">Wingardium Leviosa</h3>
+            <p>Levitate objects with precise wand movements.</p>
+          </div>
+          <div class="bg-purple-800 p-6 rounded-xl shadow-lg">
+            <h3 class="text-xl font-semibold mb-2">Expelliarmus</h3>
+            <p>Disarm your opponent by knocking their wand away.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="classes" class="container mx-auto py-16 px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center">Hogwarts Classes</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-gray-800 rounded-xl p-4">
+            <img src="Potions.jpg" alt="Potions" class="rounded-md mb-4" />
+            <h3 class="font-bold text-xl mb-1">Potions</h3>
+            <p>Brew powerful concoctions under Professor Snape's guidance.</p>
+          </div>
+          <div class="bg-gray-800 rounded-xl p-4">
+            <img src="transfiguration.jpg" alt="Transfiguration" class="rounded-md mb-4" />
+            <h3 class="font-bold text-xl mb-1">Transfiguration</h3>
+            <p>Transform objects with Professor McGonagall's expertise.</p>
+          </div>
+          <div class="bg-gray-800 rounded-xl p-4">
+            <img src="Dark arts.jpg" alt="Dark Arts" class="rounded-md mb-4" />
+            <h3 class="font-bold text-xl mb-1">Defense Against the Dark Arts</h3>
+            <p>Learn to protect yourself with Professor Lupin.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="container mx-auto py-16 px-4 text-center">
+        <h2 class="text-3xl font-bold mb-4">About Hogwarts</h2>
+        <p class="mb-6 max-w-3xl mx-auto">Hogwarts School of Witchcraft and Wizardry, founded by the legendary four founders, is the heart of magical education. This site is your portal to explore the castle's wonders.</p>
+        <blockquote class="italic border-l-4 border-yellow-500 pl-4 text-lg max-w-xl mx-auto">“Happiness can be found even in the darkest of times, if one only remembers to turn on the light.” — Albus Dumbledore</blockquote>
+        <img src="greathall.png" alt="Great Hall" class="mx-auto mt-8 rounded-xl shadow-lg max-w-xl" />
+      </section>
+
+      <section id="faq" class="container mx-auto py-16 px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center">Frequently Asked Questions</h2>
+        <div class="space-y-6 max-w-2xl mx-auto">
+          <div class="bg-gray-800 p-4 rounded-xl">
+            <h3 class="font-semibold">What is Hogwarts Hub?</h3>
+            <p>It's a magical platform where you can explore the Harry Potter world and learn spells!</p>
+          </div>
+          <div class="bg-gray-800 p-4 rounded-xl">
+            <h3 class="font-semibold">How do I earn house points?</h3>
+            <p>Create a magical project with cool features to earn house points for your Hogwarts house.</p>
+          </div>
+          <div class="bg-gray-800 p-4 rounded-xl">
+            <h3 class="font-semibold">Are the classes interactive?</h3>
+            <p>Yes! They include fun, hands-on activities to learn spells and magic.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="houses" class="container mx-auto py-16 px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">Hogwarts Houses</h2>
+        <div class="grid md:grid-cols-4 gap-6">
+          <div class="bg-red-800 rounded-xl p-4 text-center">
+            <img src="gryffin.jpg" alt="Gryffindor" class="mx-auto rounded mb-2" />
+            <h3 class="font-bold text-xl">Gryffindor</h3>
+            <p>Bravery, daring, nerve, and chivalry.</p>
+          </div>
+          <div class="bg-blue-800 rounded-xl p-4 text-center">
+            <img src="raven.jpg" alt="Ravenclaw" class="mx-auto rounded mb-2" />
+            <h3 class="font-bold text-xl">Ravenclaw</h3>
+            <p>Wit, wisdom, and learning.</p>
+          </div>
+          <div class="bg-yellow-700 rounded-xl p-4 text-center">
+            <img src="huffle.jpg" alt="Hufflepuff" class="mx-auto rounded mb-2" />
+            <h3 class="font-bold text-xl">Hufflepuff</h3>
+            <p>Loyalty, patience, and hard work.</p>
+          </div>
+          <div class="bg-green-800 rounded-xl p-4 text-center">
+            <img src="slytherin.jpg" alt="Slytherin" class="mx-auto rounded mb-2" />
+            <h3 class="font-bold text-xl">Slytherin</h3>
+            <p>Ambition, cunning, and leadership.</p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="bg-black text-center py-6 text-sm opacity-75">
+        &copy; 2025 Hogwarts Hub. Made with 🪄 by a true wizard.
+      </footer>
+    </main>
+  </body>
+</html>
